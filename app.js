@@ -4,3 +4,27 @@ var text = "you are doing it wrong";
 console.log(text, dracula.analyze(text));
 // To output a [negative, neutral, positive] float array
 console.log(text, dracula.score(text));
+
+var text = "how are you";
+// Output a 'positive', 'negative', or 'neutral' label
+console.log(text, dracula.analyze(text));
+// To output a [negative, neutral, positive] float array
+console.log(text, dracula.score(text));
+
+var text = "i'm good";
+// Output a 'positive', 'negative', or 'neutral' label
+console.log(text, dracula.analyze(text));
+// To output a [negative, neutral, positive] float array
+console.log(text, dracula.score(text));
+
+var text = "fck u";
+// Output a 'positive', 'negative', or 'neutral' label
+console.log(text, dracula.analyze(text));
+// To output a [negative, neutral, positive] float array
+console.log(text, dracula.score(text));
+
+var text = "improve you hand writing";
+// Output a 'positive', 'negative', or 'neutral' label
+console.log(text, dracula.analyze(text));
+// To output a [negative, neutral, positive] float array
+console.log(text, dracula.score(text));
